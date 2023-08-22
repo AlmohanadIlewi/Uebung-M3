@@ -13,7 +13,7 @@ export default App;
 
 
 // neue
-import React, { useState, useEffect } from 'react';
+/* import React, { useState, useEffect } from 'react';
 
 function App() {
   const [ nachricht, setNachricht ] = useState('');
@@ -35,4 +35,17 @@ function App() {
 }
 
 
+export default App;
+*/
+
+// Schritt 9: React Components
+import React from 'react';
+import Nachricht from './components/Nachricht';
+function App() {
+return (
+<div>
+<Nachricht />
+</div>
+);
+}
 export default App;
